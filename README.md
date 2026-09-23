@@ -146,3 +146,12 @@ O cabeçalho foi otimizado para PT/EN: os textos não quebram em duas linhas no 
 
 ## Header responsive
 The navigation is tuned for both PT and EN. Full desktop navigation is shown on wide screens; the CTA is hidden on medium desktop widths and a hamburger menu takes over before labels can overlap.
+
+
+## Idioma
+
+O site abre por defeito em Português de Portugal (PT-PT). O botão PT / EN continua disponível e a preferência do visitante fica guardada no browser.
+
+## Cloudflare Pages
+
+O ficheiro `wrangler.toml` não está incluído nesta versão para evitar sobrepor as variáveis configuradas no dashboard do Cloudflare Pages. Mantém em **Settings → Variables and secrets → Production**: `RESEND_API_KEY`, `CONTACT_TO_EMAIL` e `CONTACT_FROM_EMAIL`.
