@@ -1,0 +1,10 @@
+{
+  "name": "leo-portfolio2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx wrangler pages dev . --port 8788",
+    "dev:static": "python -m http.server 8081",
+    "deploy": "npx wrangler pages deploy . --project-name leo-portfolio2"
+  }
+}
